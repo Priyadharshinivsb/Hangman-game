@@ -1,0 +1,46 @@
+import random
+
+# List of words for the game
+word_list = ["python", "hangman", "challenge", "developer", "programming", "keyboard"]
+
+# Hangman stages
+stages = [
+    '''
+     ------
+     |    |
+     |    O
+     |   /|\\
+     |   / \\
+     |
+    --------
+    ''',
+    '''
+     ------
+     |    |
+     |    O
+     |   /|\\
+     |   / 
+     |
+    --------
+    ''',
+    '''
+     ------
+     |    |
+     |    O
+     |   /|\\
+     |    
+     |
+    --------
+    ''',
+    '''
+     ------
+     |    |
+     |    O
+     |   /|
+     |    
+     |
+    --------
+    ''',
+    '''
+     ------
+     |
